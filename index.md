@@ -2,9 +2,6 @@
 
 This is a Slider based in background images. Incredibly easy to configure and use.
 
-### Demo
-You can view demo [here](https://darkhc.github.io/EasyPeasySlider/)
-
 ### How to use
 
 First add the html code in every part of page
