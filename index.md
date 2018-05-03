@@ -2,6 +2,9 @@
 
 This is a Slider based in background images. Incredibly easy to configure and use.
 
+### Demo
+soon...
+
 ### How to use
 
 soon...
