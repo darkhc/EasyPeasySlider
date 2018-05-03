@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example - EasyPeasySlider</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="css/easypeasyslider.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/easypeasyslider.min.js"></script>
+  <script>
+  var imagesSlider = ["images/1.jpg", "images/2.jpg", "images/3.jpg"];
+  var epslider = new EasyPeasySlider(imagesSlider, false);
+  $(document).ready(function() {
+    epslider.init("#customSlider");
+    setInterval("epslider.next()", 3000);
+  });
+  </script>
+</head>
+<body>
+  <center style="color:blue;">
+    <h1>EasyPeasySlider</h1>
+    <h2>Require: Jquery the JS and CSS Files of library</h2>
+    <div id="customSlider" style="color:red;">Example Slider Like Background</div>
+  </center>
+</body>
+</html>

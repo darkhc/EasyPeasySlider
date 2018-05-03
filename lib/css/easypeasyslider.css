@@ -1,0 +1,18 @@
+/*
+  Library: EasyPeasySlider
+  Author: Cristian Ocaña Soler
+  License: Creative Commons -> Attribution (BY)
+*/
+#customSlider {
+  width: 640px;
+  height: 480px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset-1px 0 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset-1px 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset-1px 0 0 rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
